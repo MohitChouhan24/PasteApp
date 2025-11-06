@@ -123,11 +123,12 @@ const Home = () => {
             value={value}
             onChange={(e) => setValue(e.target.value)}
             placeholder="Write Your Content Here...."
-            className="w-full p-3  focus-visible:ring-0"
+            className="w-full p-3  focus-visible:ring-0 text-black"
             style={{
               caretColor: "#000",
             }}
             rows={20}
+            
           />
         </div>
       </div>
